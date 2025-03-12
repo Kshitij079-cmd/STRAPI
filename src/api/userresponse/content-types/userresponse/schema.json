@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "responses",
+  "info": {
+    "singularName": "userresponse",
+    "pluralName": "responses",
+    "displayName": "Responses"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "isCustomer": {
+      "type": "boolean"
+    },
+    "contactingReason": {
+      "type": "string"
+    }
+  }
+}
