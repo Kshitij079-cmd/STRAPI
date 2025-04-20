@@ -37,3 +37,4 @@ export default {
   config,
   bootstrap,
 };
+//this has to be commented for documentation
